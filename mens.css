@@ -1,0 +1,41 @@
+#mens{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 24px;
+    font-style: initial;
+}
+#mens > div {
+    width: 70%;
+    margin: auto;
+}
+h3+p{
+    margin-top: -20px;
+    color: gray;
+}
+#image{
+    margin: auto;
+    text-align: center;
+}
+#image img{
+    height: 350px;
+    margin: auto;
+    align-items: center;
+}
+#rs{
+    display: flex;
+    position: absolute;
+}
+#rs p{
+    margin: 5px;
+    margin-top: -10px;
+}
+#discount{
+    color: #388e3c;
+    font-weight: bold ;
+}
+#price{
+    font-weight: bold;
+}
+#orignal{
+    text-decoration: line-through;
+}
